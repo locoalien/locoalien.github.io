@@ -1,6 +1,8 @@
-# yelp.github.io
+# locoalien.github.io
 
-Source code for our opensource site showcasing all of our opensource projects.
+Aqui encontrara todos los proyectos OpenSources de Santiago Gonzalez.
+Twitter: http://twitter.com/locoalien
+Blog: http://day0fdev.blogspot.com
 
 ## License
 

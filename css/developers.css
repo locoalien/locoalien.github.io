@@ -7314,15 +7314,15 @@ label+.yform-help-block,
     position: relative;
     z-index: 5;
     padding: 12px 0 6px;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #C8FE2E;
     font-size: 14px;
     line-height: 1.28571em;
-    -webkit-box-shadow: 0 0 5px yellow;
-    box-shadow: 0 0 5px yellow;
-    background: yellow image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center;
-    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, -webkit-linear-gradient(yellow, yellow);
-    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, -moz-linear-gradient(yellow, yellow);
-    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, linear-gradient(yellow, yellow);
+    -webkit-box-shadow: 0 0 5px #C8FE2E;
+    box-shadow: 0 0 5px #C8FE2E;
+    background: #C8FE2E image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center;
+    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, -webkit-linear-gradient(#C8FE2E, #C8FE2E);
+    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, -moz-linear-gradient(#C8FE2E, #C8FE2E);
+    background: image-url("yelp_styleguide/assets/img/structural/header_stars.png") no-repeat center, linear-gradient(#C8FE2E, #C8FE2E);
 }
 
 @media only screen and (min-width: 480px) and (max-width: 989px) {
@@ -7340,7 +7340,7 @@ label+.yform-help-block,
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .main-header {
-        background: yellow image-url("yelp_styleguide/assets/img/structural/header_stars@2x.png") no-repeat center;
+        background: #C8FE2E image-url("yelp_styleguide/assets/img/structural/header_stars@2x.png") no-repeat center;
         background: image-url("yelp_styleguide/assets/img/structural/header_stars@2x.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
         background: image-url("yelp_styleguide/assets/img/structural/header_stars@2x.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
         background: image-url("yelp_styleguide/assets/img/structural/header_stars@2x.png") no-repeat center, linear-gradient(#c41200, #af0606);
@@ -7556,9 +7556,9 @@ only screen and (min-width: 480px) and (max-width: 989px) and (min-resolution: 1
 .main-header .main-header_account .user-account_button {
     vertical-align: middle;
     border: 1px solid #7b0000;
-    background: yellow;
-    background-image: -webkit-linear-gradient(yellow 4%, yellow 5%, yellow 100%);
-    background-image: linear-gradient( yellow 4%, yellow 5%, yellow 100%);
+    background: #C8FE2E;
+    background-image: -webkit-linear-gradient(#C8FE2E 4%, #C8FE2E 5%, #C8FE2E 100%);
+    background-image: linear-gradient( #C8FE2E 4%, #C8FE2E 5%, #C8FE2E 100%);
     border-radius: 3px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -7569,37 +7569,37 @@ only screen and (min-width: 480px) and (max-width: 989px) and (min-resolution: 1
 .main-header .main-header_button:focus,
 .main-header .main-header_account .user-account_button:hover,
 .main-header .main-header_account .user-account_button:focus {
-    background: yellow;
-    background-image: -webkit-linear-gradient(yellow 4%, yellow 5%, yellow 100%);
-    background-image: linear-gradient(yellow 4%, yellow 5%, yellow 100%);
+    background: #C8FE2E;
+    background-image: -webkit-linear-gradient(#C8FE2E 4%, #C8FE2E 5%, #C8FE2E 100%);
+    background-image: linear-gradient(#C8FE2E 4%, #C8FE2E 5%, #C8FE2E 100%);
 }
 
 .main-header .main-header_button:active,
 .main-header .main-header_button.drop-menu-highlighted,
 .main-header .main-header_account .user-account_button:active,
 .main-header .main-header_account .user-account_button.drop-menu-highlighted {
-    background: yellow;
-    background-image: -webkit-linear-gradient(yellow 0%, yellow 94%, yellow 95%);
-    background-image: linear-gradient(yellow 0%, yellow 94%, yellow 95%);
+    background: #C8FE2E;
+    background-image: -webkit-linear-gradient(#C8FE2E 0%, #C8FE2E 94%, #C8FE2E 95%);
+    background-image: linear-gradient(#C8FE2E 0%, #C8FE2E 94%, #C8FE2E 95%);
 }
 
 @media only screen and (max-width: 989px) {
     .responsive .main-header .main-header_button {
         padding: 6px 12px;
         line-height: 28px;
-        background: yellow;
-        background-image: -webkit-linear-gradient(yellow 4%, yellow 5%, yellow 100%);
-        background-image: linear-gradient(yellow, yellow 5%, yellow 100%);
-        border: 1px solid yellow;
+        background: #C8FE2E;
+        background-image: -webkit-linear-gradient(#C8FE2E 4%, #C8FE2E 5%, #C8FE2E 100%);
+        background-image: linear-gradient(#C8FE2E, #C8FE2E 5%, #C8FE2E 100%);
+        border: 1px solid #C8FE2E;
     }
     .responsive .main-header .main-header_button:hover,
     .responsive .main-header .main-header_button:focus {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#96100f 4%, #a21310 5%, #8d090e 100%);
         background-image: linear-gradient(#96100f, #a21310 5%, #8d090e 100%);
     }
     .responsive .main-header .main-header_button:active {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#680b0a 4%, #740d0b 5%, #5d0609 100%);
         background-image: linear-gradient(#680b0a, #740d0b 5%, #5d0609 100%);
     }
@@ -7639,19 +7639,19 @@ only screen and (min-width: 480px) and (max-width: 989px) and (min-resolution: 1
     .responsive .main-header_account .user-account_button {
         padding: 6px;
         line-height: 28px;
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#c51513 4%, #d11814 5%, #bd0c13 100%);
         background-image: linear-gradient(#c51513, #d11814 5%, #bd0c13 100%);
         border: 1px solid #910a10;
     }
     .responsive .main-header_account .user-account_button:hover,
     .responsive .main-header_account .user-account_button:focus {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#96100f 4%, #a21310 5%, #8d090e 100%);
         background-image: linear-gradient(#96100f, #a21310 5%, #8d090e 100%);
     }
     .responsive .main-header_account .user-account_button:active {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#680b0a 4%, #740d0b 5%, #5d0609 100%);
         background-image: linear-gradient(#680b0a, #740d0b 5%, #5d0609 100%);
     }
@@ -7666,12 +7666,12 @@ only screen and (min-width: 480px) and (max-width: 989px) and (min-resolution: 1
     }
     .responsive .main-header_account .user-account_button:hover,
     .responsive .main-header_account .user-account_button:focus {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#96100f 4%, #a21310 5%, #8d090e 100%);
         background-image: linear-gradient(#96100f, #a21310 5%, #8d090e 100%);
     }
     .responsive .main-header_account .user-account_button:active {
-        background: yellow;
+        background: #C8FE2E;
         background-image: -webkit-linear-gradient(#680b0a 4%, #740d0b 5%, #5d0609 100%);
         background-image: linear-gradient(#680b0a, #740d0b 5%, #5d0609 100%);
     }
@@ -8003,8 +8003,8 @@ only screen and (min-width: 480px) and (max-width: 989px) and (min-resolution: 1
 .header-nav_link.tabon {
     color: white;
     text-decoration: none;
-    background: yellow;
-    background: yellow;
+    background: #C8FE2E;
+    background: #C8FE2E;
     -webkit-box-shadow: inset 0 1px 0 #7b0000, 0 1px 0 #c33f01;
     box-shadow: inset 0 1px 0 #7b0000, 0 1px 0 #c33f01;
 }
@@ -14516,10 +14516,10 @@ p.nobtm {
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .main-header {
-        background: #af0606 url("/img/structural/header_stars@2x.png") no-repeat center;
-        background: url("/img/structural/header_stars@2x.png") no-repeat center, -webkit-linear-gradient(#c41200, #af0606);
-        background: url("/img/structural/header_stars@2x.png") no-repeat center, -moz-linear-gradient(#c41200, #af0606);
-        background: url("/img/structural/header_stars@2x.png") no-repeat center, linear-gradient(#c41200, #af0606);
+        background: black url("/img/structural/header_stars@2x.png") no-repeat center;
+        background: url("/img/structural/header_stars@2x.png") no-repeat center, -webkit-linear-gradient(black, black);
+        background: url("/img/structural/header_stars@2x.png") no-repeat center, -moz-linear-gradient(black, black);
+        background: url("/img/structural/header_stars@2x.png") no-repeat center, linear-gradient(black, black);
         background-size: 1380px auto, 100%;
     }
 }

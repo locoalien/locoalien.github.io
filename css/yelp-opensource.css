@@ -86,6 +86,12 @@ h3 a i {
     color: black;
 }
 
+.project:hover div {
+    /*Color cajones repositorios al estar seleccionado*/
+    background: #E6E6E6;
+    color: black;
+}
+
 .project:hover .repo-info .language {
     color: #2ECCFA;
     font-weight: bold;

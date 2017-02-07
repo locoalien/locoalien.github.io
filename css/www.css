@@ -87,6 +87,10 @@ video {
     vertical-align: baseline
 }
 
+div {
+    background: black;
+}
+
 article,
 aside,
 details,
@@ -8425,7 +8429,7 @@ a.ybtn-primary:visited {
 }
 
 body {
-    background: red
+    background: #f5f5f1
 }
 
 body.borderless {

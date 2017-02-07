@@ -16159,14 +16159,9 @@ body.borderless {
     width: 100%;
     position: relative;
     /*Fondo Footer*/
-    background: #E6E6E6;
+    background: black;
     /*Borde footer*/
     border-top: 1px solid #D0FA58
-}
-
-.borderless .footer div {
-    /*Fondo Footer*/
-    background: #E6E6E6;
 }
 
 .ywindow-popup .footer {

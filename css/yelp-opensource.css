@@ -36,6 +36,8 @@ h3 a i {
     margin: 0 auto;
     margin-top: 30px;
     width: 960px;
+    /*Color contenedor fondo repositorios*/
+    background: black;
 }
 
 .layout-block .column-alpha {

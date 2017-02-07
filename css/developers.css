@@ -5341,6 +5341,7 @@ label+.yform-help-block,
 .layout-block {
     *zoom: 1;
     margin: 0 -15px;
+    background: red;
 }
 
 .layout-block:before,

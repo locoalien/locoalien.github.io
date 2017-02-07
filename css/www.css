@@ -16015,7 +16015,7 @@ body.borderless {
     font-size: 14px;
     line-height: 1.28571em;
     /*Titulo footer color*/
-    color: #D0FA58;
+    color: black;
 }
 
 .footer .footer-wrap {
@@ -16159,9 +16159,14 @@ body.borderless {
     width: 100%;
     position: relative;
     /*Fondo Footer*/
-    background: black;
+    background: #E6E6E6;
     /*Borde footer*/
     border-top: 1px solid #D0FA58
+}
+
+.borderless .footer div {
+    /*Fondo Footer*/
+    background: #E6E6E6;
 }
 
 .ywindow-popup .footer {

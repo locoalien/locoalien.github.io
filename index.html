@@ -1,160 +1,218 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Locoalien Open Source</title>
-    <meta charset=“utf-8”>
-    <link rel="stylesheet" type="text/css" href="css/octicons.css">
-    <link rel="stylesheet" type="text/css" href="css/www.css">
-    <link rel="stylesheet" type="text/css" href="css/developers.css">
-    <link rel="stylesheet" type="text/css" href="css/yelp-opensource.css">
-    <link rel="shortcut icon" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/projects.js"></script>
-    <script src="js/orgs.js"></script>
-    <script src="js/repos.js"></script>
-    <script src="js/loaders.js"></script>
-    <script src="js/data/load_repos.js"></script>
-    <script src="js/data/load_members.js"></script>
-    <script src="js/opensource-site.js"></script>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-30501-17', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-
-<body class="ytype borderless">
-    <div id="wrap">
-        <div class="main-header main-content-wrap main-header--slim">
-            <div class="content-container clearfix">
-                <div class="arrange arrange--18 arrange--middle">
-                    <div class="arrange_unit">
-                        <h1 class="main-header_logo" id="logo">
-                            <a href="http://yelp.com/engineering">Yelp</a>
-                        </h1>
-                    </div>
-                    <div class="arrange_unit nowrap">
-                        <h2 class="main-header_title"><span></span></h2>
-                    </div>
-                    <div class="arrange_unit arrange_unit--fill">
-                        <div class="main-header_nav nowrap responsive-hidden-small responsive-hidden-medium">
-                            <ul class="header-nav" id="header-nav">
-                                <li class="header-nav_item">
-                                    <a class="header-nav_link" href="http://locoalien.github.io">Inicio</a>
-                                </li>
-                                <li class="header-nav_item">
-                                    <a class="header-nav_link" href="http://day0fdev.blogspot.com">Blog</a>
-                                </li>
-                                <!--<li class="header-nav_item">
-                                    <a class="header-nav_link" href="http://yelp.com/engineering/events">Events</a>
-                                </li>
-                                <li class="header-nav_item">
-                                    <a class="header-nav_link tabon" href="http://locoalien.github.io">Open Source</a>
-                                </li>
-                                <li class="header-nav_item">
-                                    <a class="header-nav_link" href="http://locoalien.github.io">AWE</a>
-                                </li>-->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<html lang="en">
+    <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>LoveIt</title>
+        <meta name="Description" content="About LoveIt Theme"><meta property="og:title" content="LoveIt" />
+<meta property="og:description" content="About LoveIt Theme" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://locoalien.github.io/" />
+<meta property="og:updated_time" content="2019-08-02T11:04:49+08:00" /><meta property="og:site_name" content="LoveIt" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LoveIt"/>
+<meta name="twitter:description" content="About LoveIt Theme"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="https://locoalien.github.io/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="alternate" href="/index.xml" type="application/rss+xml" title="LoveIt">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="LoveIt"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/locoalien.github.io\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": "About LoveIt Theme","image": "https:\/\/locoalien.github.io\/cover.png","thumbnailUrl": "https:\/\/locoalien.github.io\/logo.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "LoveIt"
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/">LoveIt</a>
         </div>
-
-        <div class="top-shelf top-shelf-grey">
-            <div class="container">
-                <h1>Open Source</h1>
-                <ul class='bullet-list-round'>
-                    <li>Aprenda con ejemplos y ayudas en cada lenguaje.</li>
-                    <li>Cada repositorio es creado con dedicacion y esfuerzo para ser compartido.</li>
-                    <li>Librerias listas para ser utilizadas, las cuales facilitaran el trabajo del desarrollador.</li>
-                    <!--twitter fallow-->
-                    <li><a href="https://twitter.com/locoalien" class="twitter-follow-button" data-show-count="false">Follow @locoalien</a>
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </li>
-                    <!--Twitter tweet-->
-                    <li><a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class='main-container layout-block layout-right-rail'>
-            <div class="projects container">
-                <!--<h2>Popular</h2>
-                <div class="featured"></div>-->
-
-                <h2>Proyectos y librerias OpenSource</h2>
-                <div class="not-featured"></div>
-            </div>
-        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">Posts</a><a class="menu-item" href="/tags/" rel="noopener noreffer">Tags</a><a class="menu-item" href="/categories/" rel="noopener noreffer">Categories</a><a class="menu-item" href="/categories/documentation/" rel="noopener noreffer">Docs</a><a class="menu-item" href="/about/" rel="noopener noreffer">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option><option value="/fr/">Français</option></select>
+                </a></div>
     </div>
-
-    <div class="footer">
-        <div class="footer-wrap">
-            <div class="footer-menu-wrap clearfix">
-                <div class="footer-menu clearfix"></div>
-                <div class="footer-menu clearfix first">
-                    <h3 class="menu-header">Sobre</h3>
-                    <ul class="menu-list">
-                        <li><a href="http://yelp.com/about">Sobre locoalien</a> </li>
-                        <li><a href="http://officialblog.yelp.com">Sitio web</a></li>
-                        <li><a href="http://www.yelp-press.com/">Press</a></li>
-                        <li><a href="http://www.yelp-ir.com/">Investor Relations</a></li>
-                        <li><a href="http://yelp.com/static?p=tos&amp;country=US">Terminos y condiciones</a></li>
-                        <li><a href="http://yelp.com/tos/privacy_en_us_20130910">Politica de privacidad</a></li>
-                        <li><a href="http://yelp.com/tos/privacy_en_us_20130910#third-parties">Ad Choices</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-menu clearfix">
-                    <h3 class="menu-header">Ayuda</h3>
-                    <ul class="menu-list">
-                        <li> <a href="http://yelp.com/faq">FAQ</a> </li>
-                        <li> <a href="http://yelp.com/advertise">Advertise</a> </li>
-                        <li> <a href="http://yelp.com/guidelines">Content Guidelines</a> </li>
-                        <li> <a href="http://yelp.com/contact">Contact Yelp</a> </li>
-                        <li> <a href="https://biz.yelp.com/support">Business Support</a> </li>
-                        <li> <a href="http://www.yelp.com/developers">Developers</a> </li>
-                    </ul>
-                </div>
-
-                <div class="footer-menu clearfix">
-                    <h3 class="menu-header">More</h3>
-                    <ul class="menu-list">
-                        <li> <a href="http://yelp.com/careers?country=US">Careers</a> </li>
-                        <li> <a href="http://yelp.com/yelpmobile">Yelp Mobile</a> </li>
-                        <li> <a href="http://yelp.com/weekly_yelp">The Weekly Yelp</a> </li>
-                        <li> <a href="http://www.seatme.com">Yelp SeatMe</a> </li>
-                        <li> <a href="http://yelp.com/rss">RSS</a> </li>
-                        <li> <a href="http://yelp.com/topsearches">Top Searches</a> </li>
-                    </ul>
-                </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/">LoveIt</a>
             </div>
-
-            <div class="city-landscape-img"></div>
-
-            <p class="copyright lesser-text">
-                Copyright © 2010–2017 locoalien Inc. locoalien, <img src="https://s3-media4.ak.yelpcdn.com/assets/2/www/img/9d213bfb766e/logo/logo_tiny.png" alt="Yelp logo" class="footer-copyright-logo">, <img src="https://s3-media3.ak.yelpcdn.com/assets/2/www/img/86ec59fef415/logo/burst_tiny.png"
-                    alt="Yelp burst" class="footer-burst-logo"> Todos los derechos reservados.
-            </p>
-
-            <!--Source: Freebase (http://www.freebase.com/), licensed under CC-BY (http://creativecommons.org/licenses/by/2.5/)-->
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
         </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">Posts</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">Tags</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">Categories</a><a class="menu-item" href="/categories/documentation/" title="" rel="noopener noreffer">Docs</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/" selected>English</option><option value="/zh-cn/">简体中文</option><option value="/fr/">Français</option></select>
+                </a></div>
     </div>
-</body>
+</header>
 
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "auto";
+</script>
+<main class="main">
+                <div class="container"><div class="page home"><div class="home-profile"><div class="home-avatar">
+            <a href="/posts"><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/avatar.png,  1.5x,  2x"
+        data-src=""
+        alt="avatar"
+        title="Home" /></a>
+        </div><h2 class="home-description"><div id="id-4835b1" class="typeit"></div></h2><div class="home-social-links"><a href="https://github.com/xxxx" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a>
+<a href="https://linkedin.com/in/xxxx" title="LinkedIn" target="_blank" rel="noopener noreffer me"><i class="fab fa-linkedin fa-fw"></i></a>
+<a href="https://twitter.com/xxxx" title="Twitter" target="_blank" rel="noopener noreffer me"><i class="fab fa-twitter fa-fw"></i></a>
+<a href="https://www.instagram.com/xxxx" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw"></i></a>
+<a href="https://facebook.com/xxxx" title="Facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw"></i></a>
+<a href="https://t.me/xxxx" title="Telegram" target="_blank" rel="noopener noreffer me"><i class="fab fa-telegram-plane fa-fw"></i></a>
+<a href="https://www.youtube.com/user/xxxx" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw"></i></a>
+<a href="mailto:xxxx@xxxx.com" title="Email" rel="noopener noreffer me"><i class="far fa-envelope fa-fw"></i></a>
+</div>
+</div>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/theme-documentation-basics/featured-image.jpg, /images/theme-documentation-basics/featured-image.jpg 1.5x, /images/theme-documentation-basics/featured-image.jpg 2x"
+        data-src="/images/theme-documentation-basics/featured-image.jpg"
+        alt="Discover what the Hugo - LoveIt theme is all about and the core-concepts behind it."
+        title="Discover what the Hugo - LoveIt theme is all about and the core-concepts behind it." /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-basics/">Theme Documentation - Basics</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Dillon</a>
+</span>&nbsp;<span class="post-publish">
+            published on&nbsp;<time datetime=2020-03-06>2020-03-06</time>
+        </span>&nbsp;
+            <span class="post-category">included in<a href="/categories/documentation">
+                        <i class="far fa-folder fa-fw"></i>Documentation
+                    </a></span></div><div class="content"><p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p></div><div class="post-footer">
+        <a href="/theme-documentation-basics/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/installation">installation</a>,&nbsp;<a href="/tags/configuration">configuration</a></div></div>
+</article>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/theme-documentation-content/featured-image.jpg, /images/theme-documentation-content/featured-image.jpg 1.5x, /images/theme-documentation-content/featured-image.jpg 2x"
+        data-src="/images/theme-documentation-content/featured-image.jpg"
+        alt="Find out how to create and organize your content quickly and intuitively in LoveIt theme."
+        title="Find out how to create and organize your content quickly and intuitively in LoveIt theme." /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-content/">Theme Documentation - Content</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Dillon</a>
+</span>&nbsp;<span class="post-publish">
+            published on&nbsp;<time datetime=2020-03-05>2020-03-05</time>
+        </span>&nbsp;
+            <span class="post-category">included in<a href="/categories/documentation">
+                        <i class="far fa-folder fa-fw"></i>Documentation
+                    </a></span></div><div class="content"><p>Find out how to create and organize your content quickly and intuitively in <strong>LoveIt</strong> theme.</p></div><div class="post-footer">
+        <a href="/theme-documentation-content/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/content">content</a>,&nbsp;<a href="/tags/markdown">markdown</a></div></div>
+</article>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/theme-documentation-shortcodes/featured-image.jpg, /images/theme-documentation-shortcodes/featured-image.jpg 1.5x, /images/theme-documentation-shortcodes/featured-image.jpg 2x"
+        data-src="/images/theme-documentation-shortcodes/featured-image.jpg"
+        alt="LoveIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+        title="LoveIt theme provides multiple shortcodes on top of built-in ones in Hugo." /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/theme-documentation-shortcodes/">Theme Documentation - Shortcodes</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Dillon</a>
+</span>&nbsp;<span class="post-publish">
+            published on&nbsp;<time datetime=2020-03-04>2020-03-04</time>
+        </span>&nbsp;
+            <span class="post-category">included in<a href="/categories/documentation">
+                        <i class="far fa-folder fa-fw"></i>Documentation
+                    </a></span></div><div class="content"><p><strong>LoveIt</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p></div><div class="post-footer">
+        <a href="/theme-documentation-shortcodes/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes">shortcodes</a></div></div>
+</article>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/basic-markdown-syntax/featured-image.png, /images/basic-markdown-syntax/featured-image.png 1.5x, /images/basic-markdown-syntax/featured-image.png 2x"
+        data-src="/images/basic-markdown-syntax/featured-image.png"
+        alt="This article shows the basic Markdown syntax and format."
+        title="This article shows the basic Markdown syntax and format." /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/basic-markdown-syntax/">Basic Markdown Syntax</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Dillon</a>
+</span>&nbsp;<span class="post-publish">
+            published on&nbsp;<time datetime=2019-12-01>2019-12-01</time>
+        </span>&nbsp;
+            <span class="post-category">included in<a href="/categories/markdown">
+                        <i class="far fa-folder fa-fw"></i>Markdown
+                    </a></span></div><div class="content"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p></div><div class="post-footer">
+        <a href="/basic-markdown-syntax/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/markdown">markdown</a></div></div>
+</article>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/emoji-support/featured-image.jpg, /images/emoji-support/featured-image.jpg 1.5x, /images/emoji-support/featured-image.jpg 2x"
+        data-src="/images/emoji-support/featured-image.jpg"
+        alt="Guide to emoji usage in Hugo and LoveIt."
+        title="Guide to emoji usage in Hugo and LoveIt." /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/emoji-support/">Emoji Support</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Dillon</a>
+</span>&nbsp;<span class="post-publish">
+            published on&nbsp;<time datetime=2019-10-01>2019-10-01</time>
+        </span>&nbsp;
+            <span class="post-category">included in<a href="/categories/markdown">
+                        <i class="far fa-folder fa-fw"></i>Markdown
+                    </a></span></div><div class="content"><p>Emoji can be enabled in a Hugo project in a number of ways.</p></div><div class="post-footer">
+        <a href="/emoji-support/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/emoji">emoji</a></div></div>
+</article>
+</div></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
+            });
+        });
+    </script><script>
+        window.typeitArr = [["id-4835b1"]];
+    </script><script>
+        window.contentMap = {"id-4835b1":"A Clean, Elegant but Advanced Hugo Theme"};
+    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/typeit/typeit.min.js"></script><script src="/js/theme.min.js"></script></body>
 </html>

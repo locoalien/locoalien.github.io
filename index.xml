@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>LoveIt | LoveIt</title>
-        <link>https://example.com/</link>
+        <link>https://locoalien.github.io/</link>
         <description>LoveIt | LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://example.com/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://locoalien.github.io/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
-                <link>https://example.com/posts/</link>
-                <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate><guid>https://example.com/posts/</guid>
+                <link>https://locoalien.github.io/posts/</link>
+                <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate><guid>https://locoalien.github.io/posts/</guid>
                 <description></description>
             </item><item>
                 <title>About LoveIt</title>
-                <link>https://example.com/about/</link>
-                <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate><guid>https://example.com/about/</guid>
+                <link>https://locoalien.github.io/about/</link>
+                <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate><guid>https://locoalien.github.io/about/</guid>
                 <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dillonzq/LoveIt/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://example.com/svg/loading.small.min.svg&#34;
+        src=&#34;https://locoalien.github.io/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -23,7 +23,7 @@
 
 &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://example.com/svg/loading.small.min.svg&#34;
+        src=&#34;https://locoalien.github.io/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&amp;amp;logo=hugo,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -32,7 +32,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt/blob/master/LICENSE&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://example.com/svg/loading.small.min.svg&#34;
+        src=&#34;https://locoalien.github.io/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -41,7 +41,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://example.com/svg/loading.small.min.svg&#34;
+        src=&#34;https://locoalien.github.io/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/stars/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -50,7 +50,7 @@
 
 &lt;a href=&#34;https://github.com/dillonzq/LoveIt/fork&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://example.com/svg/loading.small.min.svg&#34;
+        src=&#34;https://locoalien.github.io/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://img.shields.io/github/forks/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -64,13 +64,13 @@
 &lt;p&gt;It is based on the original &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;LeaveIt Theme&lt;/a&gt;
  and &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;KeepIt Theme&lt;/a&gt;
 .&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://example.com/images/Apple-Devices-Preview.png&#34; title=&#34;Hugo Theme LoveIt&#34; data-thumbnail=&#34;/images/Apple-Devices-Preview.png&#34; data-sub-html=&#34;&lt;h2&gt;Hugo Theme LoveIt&lt;/h2&gt;&lt;p&gt;Hugo Theme LoveIt&lt;/p&gt;&#34;&gt;
+&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://locoalien.github.io/images/Apple-Devices-Preview.png&#34; title=&#34;Hugo Theme LoveIt&#34; data-thumbnail=&#34;/images/Apple-Devices-Preview.png&#34; data-sub-html=&#34;&lt;h2&gt;Hugo Theme LoveIt&lt;/h2&gt;&lt;p&gt;Hugo Theme LoveIt&lt;/p&gt;&#34;&gt;
         &lt;img
             class=&#34;lazyload&#34;
-            src=&#34;https://example.com/svg/loading.min.svg&#34;
+            src=&#34;https://locoalien.github.io/svg/loading.min.svg&#34;
             data-sizes=&#34;auto&#34;
-            data-srcset=&#34;https://example.com/images/Apple-Devices-Preview.png, https://example.com/images/Apple-Devices-Preview.png 1.5x, https://example.com/images/Apple-Devices-Preview.png 2x&#34;
-            data-src=&#34;https://example.com/images/Apple-Devices-Preview.png&#34;
+            data-srcset=&#34;https://locoalien.github.io/images/Apple-Devices-Preview.png, https://locoalien.github.io/images/Apple-Devices-Preview.png 1.5x, https://locoalien.github.io/images/Apple-Devices-Preview.png 2x&#34;
+            data-src=&#34;https://locoalien.github.io/images/Apple-Devices-Preview.png&#34;
             alt=&#34;Hugo Theme LoveIt&#34; /&gt;
     &lt;/a&gt;&lt;figcaption class=&#34;image-caption&#34;&gt;Hugo Theme LoveIt&lt;/figcaption&gt;
     &lt;/figure&gt;&lt;/p&gt;

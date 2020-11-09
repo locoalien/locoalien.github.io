@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on LoveIt</title>
+    <title>markdown on New Inntech - Santiago Gonzalez A</title>
     <link>https://locoalien.github.io/categories/markdown/</link>
-    <description>Recent content in markdown on LoveIt</description>
+    <description>Recent content in markdown on New Inntech - Santiago Gonzalez A</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 01 Dec 2019 21:57:40 +0800</lastBuildDate>
-    
-	<atom:link href="https://locoalien.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Dec 2019 21:57:40 +0800</lastBuildDate><atom:link href="https://locoalien.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hola mundo</title>
+      <title>Basic Markdown Syntax</title>
       <link>https://locoalien.github.io/basic-markdown-syntax/</link>
       <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
       

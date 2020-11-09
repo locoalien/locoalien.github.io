@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://locoalien.github.io/theme-documentation-basics/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/theme-documentation-basics/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/theme-documentation-basics/"
@@ -15,7 +15,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/theme-documentation-basics/"
                     /></url><url>
-            <loc>https://locoalien.github.io/theme-documentation-content/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/theme-documentation-content/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/theme-documentation-content/"
@@ -28,7 +28,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/theme-documentation-content/"
                     /></url><url>
-            <loc>https://locoalien.github.io/theme-documentation-shortcodes/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/theme-documentation-shortcodes/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/theme-documentation-shortcodes/"
@@ -41,7 +41,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/theme-documentation-shortcodes/"
                     /></url><url>
-            <loc>https://locoalien.github.io/basic-markdown-syntax/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/basic-markdown-syntax/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/basic-markdown-syntax/"
@@ -54,7 +54,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/basic-markdown-syntax/"
                     /></url><url>
-            <loc>https://locoalien.github.io/emoji-support/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/emoji-support/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/emoji-support/"
@@ -67,7 +67,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/emoji-support/"
                     /></url><url>
-            <loc>https://locoalien.github.io/categories/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/categories/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/categories/"
@@ -80,7 +80,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/categories/"
                     /></url><url>
-            <loc>https://locoalien.github.io/tags/configuration/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/tags/configuration/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="https://locoalien.github.io/fr/tags/configuration/"
@@ -89,7 +89,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/tags/configuration/"
                     /></url><url>
-            <loc>https://locoalien.github.io/tags/installation/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/tags/installation/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="https://locoalien.github.io/fr/tags/installation/"
@@ -98,99 +98,7 @@
                     hreflang="en"
                     href="https://locoalien.github.io/tags/installation/"
                     /></url><url>
-            <loc>https://locoalien.github.io/posts/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/posts/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/tags/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/tags/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/tags/content/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://locoalien.github.io/tags/markdown/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/tags/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/tags/markdown/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/tags/shortcodes/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/tags/shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/tags/shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/tags/shortcodes/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/categories/markdown/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/categories/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/categories/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/categories/markdown/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/tags/emoji/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/tags/emoji/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/tags/emoji/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/tags/emoji/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/about/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://locoalien.github.io/zh-cn/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://locoalien.github.io/about/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/"
@@ -203,7 +111,99 @@
                     hreflang="en"
                     href="https://locoalien.github.io/"
                     /></url><url>
-            <loc>https://locoalien.github.io/categories/documentation/</loc><lastmod>2020-04-02T15:39:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://locoalien.github.io/posts/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/posts/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/tags/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/tags/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/tags/content/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://locoalien.github.io/tags/markdown/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/tags/markdown/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/tags/markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/tags/markdown/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/tags/shortcodes/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/tags/shortcodes/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/tags/shortcodes/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/tags/shortcodes/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/categories/markdown/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/categories/markdown/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/categories/markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/categories/markdown/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/tags/emoji/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/tags/emoji/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/tags/emoji/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/tags/emoji/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/about/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://locoalien.github.io/zh-cn/about/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://locoalien.github.io/fr/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://locoalien.github.io/about/"
+                    /></url><url>
+            <loc>https://locoalien.github.io/categories/documentation/</loc><lastmod>2020-04-02T15:46:44-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://locoalien.github.io/zh-cn/categories/documentation/"

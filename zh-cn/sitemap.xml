@@ -2,20 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://locoalien.github.io/zh-cn/about/</loc><lastmod>2020-11-09T21:05:35-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://locoalien.github.io/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://locoalien.github.io/zh-cn/about/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/zh-cn/categories/</loc><lastmod>2020-11-09T21:05:35-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://locoalien.github.io/zh-cn/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://locoalien.github.io/categories/"
@@ -28,7 +15,7 @@
                     hreflang="zh-cn"
                     href="https://locoalien.github.io/zh-cn/categories/"
                     /></url><url>
-            <loc>https://locoalien.github.io/zh-cn/</loc><lastmod>2020-11-09T21:05:35-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://locoalien.github.io/zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://locoalien.github.io/"
@@ -53,17 +40,4 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://locoalien.github.io/zh-cn/tags/"
-                    /></url><url>
-            <loc>https://locoalien.github.io/zh-cn/categories/documentation/</loc><lastmod>2020-11-09T21:05:35-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://locoalien.github.io/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://locoalien.github.io/fr/categories/documentation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://locoalien.github.io/zh-cn/categories/documentation/"
                     /></url></urlset>

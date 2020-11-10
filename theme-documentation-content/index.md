@@ -239,11 +239,15 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 
 The escape character syntax can help you build the content you wanted:
 
-
+```markdown
+{{??}X} -> X
+```
 
 For example, two `:` will enable emoji syntax, which is not the behavior you want. The escape character syntax is like this:
 
-
+```markdown
+{{??}:}joy:
+```
 
 The rendered output looks like this:
 
@@ -255,7 +259,9 @@ This is related to **[an issue for Hugo](https://github.com/gohugoio/hugo/issues
 
 Another example is:
 
-
+```markdown
+[link{{??}]}(#escape-character)
+```
 
 The rendered output looks like this:
 

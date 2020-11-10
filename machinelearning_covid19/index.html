@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Machine Learning - Covid 19 - New Inntech S.A.S</title><meta name="Description" content="Nuestra arquitectura esta lista para ser implementada en cualquier tipo de lenguaje de programación que admita el consumo de APis o servicios Odata."><meta property="og:title" content="Machine Learning - Covid 19" />
+<meta property="og:description" content="Nuestra arquitectura esta lista para ser implementada en cualquier tipo de lenguaje de programación que admita el consumo de APis o servicios Odata." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://locoalien.github.io/machinelearning_covid19/" />
+<meta property="article:published_time" content="2020-04-06T21:29:01+08:00" />
+<meta property="article:modified_time" content="2020-11-09T21:19:14-05:00" /><meta property="og:site_name" content="New Inntech S.A.S" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Machine Learning - Covid 19"/>
+<meta name="twitter:description" content="Nuestra arquitectura esta lista para ser implementada en cualquier tipo de lenguaje de programación que admita el consumo de APis o servicios Odata."/>
+<meta name="application-name" content="New Inntech S.A.S">
+<meta name="apple-mobile-web-app-title" content="New Inntech S.A.S"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://locoalien.github.io/machinelearning_covid19/" /><link rel="prev" href="https://locoalien.github.io/theme-documentation-basics/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Machine Learning - Covid 19",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/locoalien.github.io\/machinelearning_covid19\/"
+        },"genre": "posts","keywords": "Machine Learning, Covid19","wordcount":  1630 ,
+        "url": "https:\/\/locoalien.github.io\/machinelearning_covid19\/","datePublished": "2020-04-06T21:29:01+08:00","dateModified": "2020-11-09T21:19:14-05:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Santiago Gonzalez A"},"author": {
+                "@type": "Person",
+                "name": "Santiago Gonzalez A"
+            },"description": "Nuestra arquitectura esta lista para ser implementada en cualquier tipo de lenguaje de programación que admita el consumo de APis o servicios Odata."
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="New Inntech S.A.S">New Inntech S.A.S</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/locoalien" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/machinelearning_covid19/" selected>English</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="New Inntech S.A.S">New Inntech S.A.S</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/locoalien" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/machinelearning_covid19/" selected>English</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Machine Learning - Covid 19</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://dillonzq.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Santiago Gonzalez A</a></span>&nbsp;<span class="post-category">included in <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>Documentation</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-04-06">2020-04-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1630 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;8 minutes&nbsp;<span id="/machinelearning_covid19/" class="leancloud_visitors" data-flag-title="Machine Learning - Covid 19">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/machinelearning_covid19/machinelearning.jpg"
+        data-srcset="/images/machinelearning_covid19/machinelearning.jpg, /images/machinelearning_covid19/machinelearning.jpg 1.5x, /images/machinelearning_covid19/machinelearning.jpg 2x"
+        data-sizes="auto"
+        alt="/images/machinelearning_covid19/machinelearning.jpg"
+        title="Nuestra arquitectura esta lista para ser implementada en cualquier tipo de lenguaje de programación que admita el consumo de APis o servicios Odata." /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#2-características">2 Características</a>
+      <ul>
+        <li><a href="#21-compatibilidad">2.1 Compatibilidad</a></li>
+        <li><a href="#22-arquitectura">2.2 Arquitectura</a></li>
+        <li><a href="#23-seguridad-y-acceso">2.3 Seguridad y acceso</a></li>
+        <li><a href="#24-monitoreo">2.4 Monitoreo</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-api-mask-ml">3 API MASK ML</a>
+      <ul>
+        <li><a href="#31-descripcion">3.1 Descripcion</a></li>
+        <li><a href="#32-autenticación">3.2 Autenticación</a></li>
+        <li><a href="#33-probando-el-servicio">3.3 Probando el servicio</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-api-object-ml">4 API Object ML</a>
+      <ul>
+        <li><a href="#41-basic-configuration">4.1 Basic Configuration</a></li>
+        <li><a href="#42-overwrite-translation-strings">4.2 Overwrite Translation Strings</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Utiliza nuestra API en cualquier tipo de solución utilizando tecnologías en la nube como SAP Cloud Platform, Google Cloud Platform, Amazon Web Services, Heroku entre otras.</p>
+<h2 id="introducción">Introducción</h2>
+<p>Una vez comenzó la pandemia de Covid19, nos vimos forzados a cambiar ciertos hábitos sociales, culturales y laborales, lo cual presento diversos desafíos en el transcurso de este año 2020.</p>
+<p>Personalmente a nivel tecnológico, nos vimos forzados a cambiar ciertos hábitos y adecuarnos a un entorno laboral desde casa. A medida que el tiempo pasaba estando confinados en nuestros hogares, surgieron nuevas necesidades para poder volver a una normalidad mas segura pese a que el virus del Covid19 todavia esta en el aire.</p>
+<p>Las empresas se vieron obligadas por los gobiernos, a adoptar diversos protocolos de Bioseguridad para garantizar un acceso a establecimientos de comida, centros comerciales entre otros, de manera mas segura, para evitar propagar mas la pandemia.</p>
+<p>Para no dar mas larga al asunto, quiero presentarles una solución en Machine Learning que permite analizar diversos comportamientos sociales y poder identificarlos para tomar decisiones.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Visitar documentacion completa<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Si deseas visitar la pagina oficial, para ver todo lo relacionado con nuestra API de Machine Learning, te recomiendo visitar el siguiente sitio web  <a href="https://www.newinntech.com" target="_blank" rel="noopener noreffer">New Inntech</a> en la cual encontraras todo el detalle que se explicara en este Post.</div>
+        </div>
+    </div>
+<h2 id="2-características">2 Características</h2>
+<p>A continuacion, las caracteristicas mas fuertes, de nuestros servicios de Machine Learning, dando la tranquilidad a las personas que deseen utilizarlos, de la disponibilidad y soporte que brindamos.</p>
+<h3 id="21-compatibilidad">2.1 Compatibilidad</h3>
+<p>Utiliza nuestra API en cualquier tipo de solución utilizando tecnologías en la nube como SAP Cloud Platform, Google Cloud Platform, Amazon Web Services, Heroku entre otras.</p>
+<p>La solución en Machine Learning para Covid19 esta creada de tal manera, que puedas utilizar servicios web y realizar la integración a cualquier tipo de sistemas que poseas.</p>
+<p><figure><a class="lightgallery" href="/images/machinelearning_covid19/Top-Programming-Languages.png" title="Basic configuration preview" data-thumbnail="/images/machinelearning_covid19/Top-Programming-Languages.png" data-sub-html="<h2>Lenguajes mas utilizados</h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/machinelearning_covid19/Top-Programming-Languages.png"
+            data-srcset="/images/machinelearning_covid19/Top-Programming-Languages.png, /images/machinelearning_covid19/Top-Programming-Languages.png 1.5x, /images/machinelearning_covid19/Top-Programming-Languages.png 2x"
+            data-sizes="auto"
+            alt="/images/machinelearning_covid19/Top-Programming-Languages.png" />
+    </a><figcaption class="image-caption">Lenguajes mas utilizados</figcaption>
+    </figure></p>
+<h3 id="22-arquitectura">2.2 Arquitectura</h3>
+<p>Utilizamos una arquitectura completamente desacoplada, para que nuestros clientes a la hora de adquirir algún servicio de Machine Learning, puedan escalarlo en los servidores de manera rápida y fácil.</p>
+<p>Existen dos modelos, con el cual pueden adquirir los servicios de Machine Learning, ya sea Cloud o en un Servidor On-Premise. Actualmente todos nuestros servicios los estamos alojando en AWS debido a costo bajo y accesible para cualquier tipo de empresa bajo demanda o consumo de los servicios.</p>
+<p>Con AWS garantizamos la disponibilidad de los servicios 7/24, permitiendo un alto rendimiento en la respuesta a cada peticion, en tan solo segundos.</p>
+<h3 id="23-seguridad-y-acceso">2.3 Seguridad y acceso</h3>
+<p>Facilitamos a nuestros subscriptores, un API KEY único con el cual pueden usar todos nuestros servicios, así de simple. Adicionalmente facilitamos una Interfaz en Swagger, con la cual pueden probar la API sin la necesidad de desarrollar.</p>
+<p>Adicionalmente también brindamos a nuestros clientes una autenticación mediante usuario y clave, con la cual una vez realicen el Login, obtendrán un Token que servira para consumir los demás servicios de Machine Learning.</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Mas adelante, veremos el detalle de lo que se ha mencionado hasta el momento.</div>
+        </div>
+    </div>
+<h3 id="24-monitoreo">2.4 Monitoreo</h3>
+<p>Estamos monitorizando constantemente los microservicios para brindar una respuesta rápida y disponibilidad para las soluciones de nuestros clientes.</p>
+<p>Garantizamos la disponibilidad y control de errores de cada servicio web de Machine Learning, para evitar afectar cualquier tipo de implementación que nuestros clientes posean.</p>
+<h2 id="3-api-mask-ml">3 API MASK ML</h2>
+<h3 id="31-descripcion">3.1 Descripcion</h3>
+<p>ML MASK - Es un servicio de Machine Learning que va a permitir a nuestros clientes automatizar la manera de detectar personas que tienen tapabocas puesto en su rostro, con el objetivo de tener un mayor control en un lugar determinado de que personas ingresan y que estén cumpliendo con el protocolo de Bioseguridad que afrontamos en estos tiempos de pandemia.</p>
+<p><figure><a class="lightgallery" href="/images/machinelearning_covid19/apimask.png" title="Basic configuration preview" data-thumbnail="/images/machinelearning_covid19/apimask.png" data-sub-html="<h2>Foto procesada con los servicios ML</h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/machinelearning_covid19/apimask.png"
+            data-srcset="/images/machinelearning_covid19/apimask.png, /images/machinelearning_covid19/apimask.png 1.5x, /images/machinelearning_covid19/apimask.png 2x"
+            data-sizes="auto"
+            alt="/images/machinelearning_covid19/apimask.png" />
+    </a><figcaption class="image-caption">Foto procesada con los servicios ML</figcaption>
+    </figure></p>
+<p>Nuestros servicios de ML esta construido bajo una arquitectura orientada a APIs, lo que va permitir que cualquier tipo de tecnología que soporte consumo de servicios REST, pueda acceder a nuestras funcionalidades.</p>
+<p>Las tecnologías mas comunes que podrán integrarse con nuestros End-Points son Python, NodeJS, Java, .Net(C#,VB), C++ y tecnologias Front-End como VueJS, AngularJS, ReactJS.</p>
+<p>Con todo este panorama, podemos llevar la inteligencia artificial a cualquier entorno delegando la parte mas compleja en nuestras APIs para el procesamiento de ML.</p>
+<p>Nuestros microservicios, trabajan de la mano con la mejor tecnología para ofrecer una rápida respuesta en el procesamiento de una imagen dando como respuesta en poco segundos el resultado esperado con un margen de error mínimo en la mayoría de los casos.</p>
+<p>Utilizamos los mejores Frameworks de procesamiento de imágenes y desarrollo de redes neuronales, para ofrecer modelos predictivos mas eficaces y de rápida respuesta.</p>
+<p>Ofrecemos a nuestros clientes instancias exclusivas donde se dará respuesta rápida sin afectar rendimiento por peticiones de otros clientes, lo que nos permite garantizar una alta escalabilidad y respuesta en nuestros servicios.</p>
+<p>Ver mas detalles <a href="https://ai.newinntech.com/docs/mask/" target="_blank" rel="noopener noreffer">API MASK</a></p>
+<h3 id="32-autenticación">3.2 Autenticación</h3>
+<p>Para consumir nuestra API de detección de tapabocas, solo es necesario tener la API KEY que proveemos al contratar nuestro servicio, y la imagen a procesar para realizar el análisis con el modelo de Machine Learning.</p>
+<p><figure><a class="lightgallery" href="/images/machinelearning_covid19/maskapi_key.png" title="Basic configuration preview" data-thumbnail="/images/machinelearning_covid19/maskapi_key.png" data-sub-html="<h2>Autenticación con API KEY</h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/machinelearning_covid19/maskapi_key.png"
+            data-srcset="/images/machinelearning_covid19/maskapi_key.png, /images/machinelearning_covid19/maskapi_key.png 1.5x, /images/machinelearning_covid19/maskapi_key.png 2x"
+            data-sizes="auto"
+            alt="/images/machinelearning_covid19/maskapi_key.png" />
+    </a><figcaption class="image-caption">Autenticación con API KEY</figcaption>
+    </figure></p>
+<p>En caso de que se elija el método de autenticación con JWT, solo sera necesario tener un usuario y clave. Una vez la autenticación sea correcta, devolveremos un token que servira para consumir los demás servicios.</p>
+<p><figure><a class="lightgallery" href="/images/machinelearning_covid19/maskapi_jwt.png" title="Basic configuration preview" data-thumbnail="/images/machinelearning_covid19/maskapi_jwt.png" data-sub-html="<h2>Autenticación con JWT</h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/machinelearning_covid19/maskapi_jwt.png"
+            data-srcset="/images/machinelearning_covid19/maskapi_jwt.png, /images/machinelearning_covid19/maskapi_jwt.png 1.5x, /images/machinelearning_covid19/maskapi_jwt.png 2x"
+            data-sizes="auto"
+            alt="/images/machinelearning_covid19/maskapi_jwt.png" />
+    </a><figcaption class="image-caption">Autenticación con JWT</figcaption>
+    </figure></p>
+<h3 id="33-probando-el-servicio">3.3 Probando el servicio</h3>
+<p>Debemos de seguir los siguientes pasos utilizando la siguiente API KEY <code>eiWee8ep9due4deeshoa8Peichai8Eih</code> , la cual es de prueba y no es para uso en entornos productivos. No garantizamos con la API KEY proporcionada en esta documentación, el 100% de disponibilidad.</p>
+<ol>
+<li>Ingresamos a la siguiente URL: <code>http://104.154.156.107:5000/doc/</code></li>
+<li>Agregamos la API KEY</li>
+<li>Escogemos una imagen de nuestro equipo Windows, Linux o Mac.</li>
+<li>Damos click en ejecutar.</li>
+</ol>
+<p>Con lo anterior se tiene algo como lo siguiente:</p>
+<p><figure><a class="lightgallery" href="/images/machinelearning_covid19/maskapi_howto.png" title="Basic configuration preview" data-thumbnail="/images/machinelearning_covid19/maskapi_howto.png" data-sub-html="<h2>Ejempo del funcionamiento del servicio</h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/machinelearning_covid19/maskapi_howto.png"
+            data-srcset="/images/machinelearning_covid19/maskapi_howto.png, /images/machinelearning_covid19/maskapi_howto.png 1.5x, /images/machinelearning_covid19/maskapi_howto.png 2x"
+            data-sizes="auto"
+            alt="/images/machinelearning_covid19/maskapi_howto.png" />
+    </a><figcaption class="image-caption">Ejempo del funcionamiento del servicio</figcaption>
+    </figure></p>
+<p>Una vez demos click en ejecutar, obtendremos como resultado el siguiente JSON:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-JSON" data-lang="JSON"><span class="p">{</span>
+    <span class="err">basee64:</span> <span class="nt">&#34;Codigo en Base64 para ser interpretado&#34;</span><span class="p">,</span>
+    <span class="err">mask:</span><span class="nt">&#34;Obtiene el valor &#39;Mask&#39; en caso de que la persona tenga la mascara puesta&#34;</span><span class="p">,</span>
+    <span class="err">value:</span><span class="nt">&#34;Porcentaje de efectividad&#34;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>En caso de que deseemos probar por linea de comandos la API, pueden ingresar lo siguiente, teniendo en cuenta que deben proporcionar la ruta de la imagen:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-BASH" data-lang="BASH">curl -X POST <span class="s2">&#34;http://104.154.156.107:5000/api/mask/apikey&#34;</span> -H <span class="s2">&#34;accept: application/json&#34;</span> -H <span class="s2">&#34;x-api-key: eiWee8ep9due4deeshoa8Peichai8Eih&#34;</span> -H <span class="s2">&#34;Content-Type: multipart/form-data&#34;</span> -F <span class="s2">&#34;images=@tapa.jpg;type=image/jpeg&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Teniendo claro lo explicado anteriormente, podrán integrar esta funcionalidad en diversas soluciones digitales para su negocio o compañía.</p>
+<h2 id="4-api-object-ml">4 API Object ML</h2>
+<p><strong>LoveIt</strong> theme is fully compatible with Hugo multilingual mode.</p>
+<p>It provides:</p>
+<ul>
+<li>Translation strings for default values (<strong>English</strong>, <strong>Chinese</strong> and <strong>French</strong>). <strong>Feel free to contribute!</strong></li>
+<li>In-browser language switching</li>
+</ul>
+<p><figure><a class="lightgallery" href="/images/theme-documentation-basics/language-switch.gif" title="Language Switch" data-thumbnail="/images/theme-documentation-basics/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/images/theme-documentation-basics/language-switch.gif"
+            data-srcset="/images/theme-documentation-basics/language-switch.gif, /images/theme-documentation-basics/language-switch.gif 1.5x, /images/theme-documentation-basics/language-switch.gif 2x"
+            data-sizes="auto"
+            alt="/images/theme-documentation-basics/language-switch.gif" />
+    </a><figcaption class="image-caption">Language Switch</figcaption>
+    </figure></p>
+<h3 id="41-basic-configuration">4.1 Basic Configuration</h3>
+<p>After learning <a href="https://gohugo.io/content-management/multilingual" target="_blank" rel="noopener noreffer">how Hugo handle multilingual websites</a>, define your languages in your <a href="#site-configuration" rel="">site configuration</a>.</p>
+<p>For example with English, Chinese and French website:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span><span class="lnt">82
+</span><span class="lnt">83
+</span><span class="lnt">84
+</span><span class="lnt">85
+</span><span class="lnt">86
+</span><span class="lnt">87
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># [en, zh-cn, fr, ...] determines default content language</span>
+<span class="nx">defaultContentLanguage</span> <span class="p">=</span> <span class="s2">&#34;en&#34;</span>
+
+<span class="p">[</span><span class="nx">languages</span><span class="p">]</span>
+  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;My New Hugo Site&#34;</span>
+    <span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en&#34;</span>
+    <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;posts&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Posts&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/posts/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Tags&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/tags/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Categories&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+
+  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="err">-</span><span class="nx">cn</span><span class="p">]</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;我的全新 Hugo 网站&#34;</span>
+    <span class="c"># language code, CN only here</span>
+    <span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>
+    <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;简体中文&#34;</span>
+    <span class="c"># whether to include Chinese/Japanese/Korean</span>
+    <span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="err">-</span><span class="nx">cn</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;posts&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;文章&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/posts/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="err">-</span><span class="nx">cn</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;标签&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/tags/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="err">-</span><span class="nx">cn</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;分类&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+
+  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">fr</span><span class="p">]</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+    <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Mon nouveau site Hugo&#34;</span>
+    <span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;fr&#34;</span>
+    <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;Français&#34;</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">fr</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;posts&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Postes&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/posts/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">fr</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Balises&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/tags/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+    <span class="p">[[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">fr</span><span class="p">.</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+      <span class="nx">identifier</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+      <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Catégories&#34;</span>
+      <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/categories/&#34;</span>
+      <span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+      <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Then, for each new page, append the language code to the file name.</p>
+<p>Single file <code>my-page.md</code> is split in three files:</p>
+<ul>
+<li>in English: <code>my-page.en.md</code></li>
+<li>in Chinese: <code>my-page.zh-cn.md</code></li>
+<li>in French: <code>my-page.fr.md</code></li>
+</ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Be aware that only translated pages are displayed in menu. It’s not replaced with default language content.</div>
+        </div>
+    </div>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Use <a href="https://gohugo.io/content-management/multilingual/#translate-your-content" target="_blank" rel="noopener noreffer">Front Matter parameter</a> to translate urls too.</div>
+        </div>
+    </div>
+<h3 id="42-overwrite-translation-strings">4.2 Overwrite Translation Strings</h3>
+<p>Translations strings are used for common default values used in the theme. Translations are available in <strong>English</strong>, <strong>Chinese</strong> and <strong>French</strong>, but you may use another language or want to override default values.</p>
+<p>To override these values, create a new file in your local i18n folder <code>i18n/&lt;languageCode&gt;.toml</code> and inspire yourself from <code>themes/LoveIt/i18n/en.toml</code>.</p>
+<p>By the way, as these translations could be used by other people, please take the time to propose a translation by <a href="https://github.com/dillonzq/LoveIt/pulls" target="_blank" rel="noopener noreffer">making a PR</a> to the theme!</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-11-09&nbsp;<a class="git-hash" href="https://github.com/locoalien/commit/fad460781ac26661ddf035d0d461a6579de81899" target="_blank" title="commit by Santiago Gonzalez(santiagosk80@gmail.com) fad460781ac26661ddf035d0d461a6579de81899: actualizacion">
+                                    <i class="fas fa-hashtag fa-fw"></i>fad4607</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/machinelearning_covid19/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/machine-learning/">Machine Learning</a>,&nbsp;<a href="/tags/covid19/">Covid19</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/theme-documentation-basics/" class="prev" rel="prev" title="Theme Documentation - Basics"><i class="fas fa-angle-left fa-fw"></i>Theme Documentation - Basics</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.78.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://www.newinntech.com" target="_blank">New Inntech S.A.S</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/valine/Valine.min.js"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

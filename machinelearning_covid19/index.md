@@ -60,7 +60,7 @@ Garantizamos la disponibilidad y control de errores de cada servicio web de Mach
 
 ## 3 API MASK ML
 
-### 3.1 Descripcion
+### 3.1 Descripción
 
 ML MASK - Es un servicio de Machine Learning que va a permitir a nuestros clientes automatizar la manera de detectar personas que tienen tapabocas puesto en su rostro, con el objetivo de tener un mayor control en un lugar determinado de que personas ingresan y que estén cumpliendo con el protocolo de Bioseguridad que afrontamos en estos tiempos de pandemia.
 
@@ -124,132 +124,54 @@ Teniendo claro lo explicado anteriormente, podrán integrar esta funcionalidad e
 
 ## 4 API Object ML
 
-**LoveIt** theme is fully compatible with Hugo multilingual mode.
+### 4.1 Descripción
 
-It provides:
+ML OBJECT - Es un servicio de Machine Learning que va a permitir detectar diferentes tipos de objetos que se encuentren en una imagen. Esta funcionalidad es muy importante ya que el foco central es poder detectar cuantas personas hay en un lugar determinado. Esto va a permitir recopilar información del entorno y realizar estadísticas para tu negocio o compañía.
 
-* Translation strings for default values (**English**, **Chinese** and **French**). **Feel free to contribute!**
-* In-browser language switching
+Actualmente esta funcionalidad es muy apetecida, por el tema de la pandemia actual que requiere controlar en espacios cerrados un limite de numero de personas, para no infringir las normas de Bioseguridad o normas propuestas por el gobierno.
 
-![Language Switch](/images/theme-documentation-basics/language-switch.gif "Language Switch")
+![Basic configuration preview](/images/machinelearning_covid19/apiobject.png "Detección de objetos y personas")
 
-### 4.1 Basic Configuration
+### 4.2 Probando el servicio
 
-After learning [how Hugo handle multilingual websites](https://gohugo.io/content-management/multilingual), define your languages in your [site configuration](#site-configuration).
+![Basic configuration preview](/images/machinelearning_covid19/objectapi_howto.png "Ejempo del funcionamiento del servicio")
 
-For example with English, Chinese and French website:
+Una vez demos click en ejecutar, obtendremos como resultado el siguiente JSON:
 
-```toml
-# [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+```JSON
+{
+    basee64: "Codigo en Base64 para ser interpretado con el resultado",
+    mask:"Obtiene el valor 'Object' en caso de detectar personas y objectos",
+    value:"Porcentaje de efectividad"
+}
+```
+En caso de que deseemos probar por linea de comandos la API, pueden ingresar lo siguiente, teniendo en cuenta que deben proporcionar la ruta de la imagen:
 
-[languages]
-  [languages.en]
-    weight = 1
-    title = "My New Hugo Site"
-    languageCode = "en"
-    languageName = "English"
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      pre = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      pre = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "categories"
-      pre = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
-      weight = 3
+```BASH
+curl -X POST "http://104.154.156.107:5000/api/objects/apikey" -H "accept: application/json" -H "x-api-key: eiWee8ep9due4deeshoa8Peichai8Eih" -H "Content-Type: multipart/form-data" -F "images=@people.jpeg;type=image/jpeg"
+```
+Teniendo claro lo explicado anteriormente, podrán integrar esta funcionalidad en diversas soluciones digitales para su negocio o compañía.
 
-  [languages.zh-cn]
-    weight = 2
-    title = "我的全新 Hugo 网站"
-    # language code, CN only here
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = true
-    [[languages.zh-cn.menu.main]]
-      identifier = "posts"
-      pre = ""
-      name = "文章"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.zh-cn.menu.main]]
-      identifier = "tags"
-      pre = ""
-      name = "标签"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.zh-cn.menu.main]]
-      identifier = "categories"
-      pre = ""
-      name = "分类"
-      url = "/categories/"
-      title = ""
-      weight = 3
+## 5 API Social Distance ML
 
-  [languages.fr]
-    weight = 3
-    title = "Mon nouveau site Hugo"
-    languageCode = "fr"
-    languageName = "Français"
-    [[languages.fr.menu.main]]
-      identifier = "posts"
-      pre = ""
-      name = "Postes"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.fr.menu.main]]
-      identifier = "tags"
-      pre = ""
-      name = "Balises"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.fr.menu.main]]
-      identifier = "categories"
-      name = "Catégories"
-      pre = ""
-      url = "/categories/"
-      title = ""
-      weight = 3
+### 5.1 Descripción
+
+ML Social Distance - Es un servicio de Machine Learning que va a permitir detectar que personas están demasiado cerca una de la otra, con el objetivo de medir el distanciamiento social que se tiene en un lugar predeterminado y así controlar con mas asertividad las normas dictadas por el gobierno o a nivel de Bioseguridad.
+
+![Basic configuration preview](/images/machinelearning_covid19/apisocialdistance.png "Detección de personas cercanas una de la otra")
+
+### 5.2 Probando el servicio
+
+Se utiliza la misma metodologia de los servicios anteriores para probar el servicio. Mostramos un ejemplo en Curl de como seria.
+
+```BASH
+curl -X POST "http://104.154.156.107:5000/api/socialdistance/apikey" -H "accept: application/json" -H "x-api-key: eiWee8ep9due4deeshoa8Peichai8Eih" -H "Content-Type: multipart/form-data" -F "images=@people.jpeg;type=image/jpeg"
 ```
 
-Then, for each new page, append the language code to the file name.
+## 6 Catalogo de servicios
 
-Single file `my-page.md` is split in three files:
+Ahora bien en la siguiente imagen, veremos el catalogo completo de los servicios de ML, que disponemos para la categoria de Covid19.
 
-* in English: `my-page.en.md`
-* in Chinese: `my-page.zh-cn.md`
-* in French: `my-page.fr.md`
+![Basic configuration preview](/images/machinelearning_covid19/catalog.png "Detección de personas cercanas una de la otra")
 
-{{< admonition >}}
-Be aware that only translated pages are displayed in menu. It’s not replaced with default language content.
-{{< /admonition >}}
-
-{{< admonition tip >}}
-Use [Front Matter parameter](https://gohugo.io/content-management/multilingual/#translate-your-content) to translate urls too.
-{{< /admonition >}}
-
-### 4.2 Overwrite Translation Strings
-
-Translations strings are used for common default values used in the theme. Translations are available in **English**, **Chinese** and **French**, but you may use another language or want to override default values.
-
-To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/LoveIt/i18n/en.toml`.
-
-By the way, as these translations could be used by other people, please take the time to propose a translation by [making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
-
+Si desean mas detalle de como trabajamos y como desarrollamos nuestros productos, no duden en visitarnos [New Inntech](https://www.newinntech.com) <span class="emoji">:grinning:</span>
